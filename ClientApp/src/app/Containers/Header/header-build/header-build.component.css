@@ -1,0 +1,8 @@
+.aem__navbar{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+

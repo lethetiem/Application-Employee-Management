@@ -1,0 +1,19 @@
+<div class="aem__navbar">
+    <div class="aem__navbar-links">
+        <div class="aem__navbar-links_logo">
+            <img [src]= "logo" alt="logo-image">
+        </div>
+        <div class="aem__navbar-links_container">
+            <p><a routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a></p>
+            <p><a routerLink="Company" routerLinkActive="active-link">Company</a></p>
+            <p><a routerLink="Employees" routerLinkActive="active-link">Employee</a></p>
+        </div>
+        <div class="aem__navbar-sign">
+            <p>Sign in</p>
+            <button type="button">Sign up</button>
+        </div>
+        <div class="aem__navbar-menu">
+            <dx-toolbar color="#fff" size="{27}" [items]="toolbarContent"></dx-toolbar>
+        </div>
+    </div>
+</div>  

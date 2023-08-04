@@ -1,0 +1,110 @@
+.aem__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.aem__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-star;
+    align-items: center;
+}
+
+.aem__navbar-links_logo{
+    margin-right: 2rem;
+}
+
+.aem__navbar-links_logo img{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.aem__navbar-links_container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.aem__navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.aem__navbar-links_container p,
+.aem__navbar-sign p,
+.aem__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 3rem;
+    cursor: pointer;
+}
+
+.aem__navbar-sign button,
+.aem__navbar-menu_container button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.aem__navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210;
+    border-radius: 5px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}
+
+::ng-deep #toolbar {
+    background-color: rgba(191, 191, 191, .15);
+    padding: 5px 10px;
+}
+::ng-deep .dx-toolbar-button .dx-button {
+    background-color: rgba(191, 191, 191, -0.15);
+    border: none;
+}
+::ng-deep .dx-toolbar-button > .dx-toolbar-item-content {
+    margin-left: -7px;
+}
+
+.aem__navbar-menu{
+    margin-left: 1rem;
+
+    position: relative;
+}
+
+.active-link{
+    font-weight: bold;
+    color: var(--color-subtext);
+}
+
+
+
