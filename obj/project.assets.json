@@ -3920,25 +3920,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASAP\\.nuget\\packages\\": {}
+    "/Users/tiemle/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ASAP\\Desktop\\New-Application-Employee-Management\\Application-Employee-Management\\Employees-Application.csproj",
+      "projectUniqueName": "/Users/tiemle/ASAP/Application-Employee-Management/Employees-Application.csproj",
       "projectName": "Employees-Application",
-      "projectPath": "c:\\Users\\ASAP\\Desktop\\New-Application-Employee-Management\\Application-Employee-Management\\Employees-Application.csproj",
-      "packagesPath": "C:\\Users\\ASAP\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ASAP\\Desktop\\New-Application-Employee-Management\\Application-Employee-Management\\obj\\",
+      "projectPath": "/Users/tiemle/ASAP/Application-Employee-Management/Employees-Application.csproj",
+      "packagesPath": "/Users/tiemle/.nuget/packages/",
+      "outputPath": "/Users/tiemle/ASAP/Application-Employee-Management/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASAP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/tiemle/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3999,7 +3999,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
       }
     }
   }

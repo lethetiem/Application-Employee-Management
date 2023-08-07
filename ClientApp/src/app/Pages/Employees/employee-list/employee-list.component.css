@@ -1,0 +1,29 @@
+.container{
+    margin-top: 4%;
+}
+
+.fa{
+    font-size: 12px;
+}
+
+.card-body{
+    background-color: cornsilk;
+}
+
+.border{
+    padding: 10px
+}
+
+.btn{
+    margin-right: 10px;
+}
+
+.fa{
+    margin-right: 10px;
+}
+
+.fa-search .fa-edit .fa-remove{
+    font-size: 5px;
+    margin-right: 10px;
+    padding: 0px;
+}
