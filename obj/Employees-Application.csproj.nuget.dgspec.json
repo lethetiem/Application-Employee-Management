@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Intern\\ASAP\\Application-Employee-Management\\Employees-Application\\Employees-Application.csproj": {}
+    "c:\\Users\\ASAP\\Desktop\\New-Application-Employee-Management\\Application-Employee-Management\\Employees-Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Intern\\ASAP\\Application-Employee-Management\\Employees-Application\\Employees-Application.csproj": {
+    "c:\\Users\\ASAP\\Desktop\\New-Application-Employee-Management\\Application-Employee-Management\\Employees-Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Intern\\ASAP\\Application-Employee-Management\\Employees-Application\\Employees-Application.csproj",
+        "projectUniqueName": "c:\\Users\\ASAP\\Desktop\\New-Application-Employee-Management\\Application-Employee-Management\\Employees-Application.csproj",
         "projectName": "Employees-Application",
-        "projectPath": "C:\\Users\\Intern\\ASAP\\Application-Employee-Management\\Employees-Application\\Employees-Application.csproj",
-        "packagesPath": "C:\\Users\\Intern\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Intern\\ASAP\\Application-Employee-Management\\Employees-Application\\obj\\",
+        "projectPath": "c:\\Users\\ASAP\\Desktop\\New-Application-Employee-Management\\Application-Employee-Management\\Employees-Application.csproj",
+        "packagesPath": "C:\\Users\\ASAP\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\ASAP\\Desktop\\New-Application-Employee-Management\\Application-Employee-Management\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Intern\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ASAP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -40,6 +40,20 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.9, )"
             },

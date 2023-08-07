@@ -1,7 +1,10 @@
 <div class="container">
     <h1 class="mb-3">Employee</h1>
+    <div class="border">
+         
+    </div>
 
-    <table class="table table-striped-columns" *ngIf="employees && employees.length > 0">
+    <table class="table table-bordered table-striped-columns" *ngIf="[employees && employees.length > 0]">
         <thead>
             <tr>
                 <th>ID</th>
@@ -21,5 +24,5 @@
             </tr>
         </tbody>
     </table>
-    <p *ngIf="!employees">No Employee Found</p>
+    <p *ngIf="[!employees || employees.length <= 0]">No Employee Found</p>
 </div>

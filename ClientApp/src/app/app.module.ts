@@ -13,6 +13,7 @@ import { CompanyListComponent } from './Pages/Company/company-list/company-list.
 import { NavbarComponent } from './Components/Navbar/navbar/navbar.component';
 import { BrandComponent } from './Components/Brand/brand/brand.component';
 import { FeatureComponent } from './Components/Feature/feature/feature.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FeatureComponent } from './Components/Feature/feature/feature.component
     DxDrawerModule,
     DxToolbarModule,
     DxDropDownButtonModule,
-    DxToolbarModule
+    DxToolbarModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

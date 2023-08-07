@@ -15,8 +15,6 @@ export class EmployeeListComponent implements OnInit {
       phoneNumber: 23213,
       staffCode: '4214214214'
     }
-
-    
   ];
   constructor(){}
 
