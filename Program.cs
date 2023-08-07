@@ -11,7 +11,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("EmployeeConnectionString")));
-// builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseMySqlServer(builder.Configuration.GetConnectionString("EmployeeConnectionString")));
 
 var app = builder.Build();
 
