@@ -1,7 +1,6 @@
 <div class="container">
-    <h1 class="mb-3">Employee</h1>
     <div class="border">
-         
+         <button class="btn btn-nd btn-outline-primary"><i id="myicon" class="fa fa-user"></i>New Employee</button>
     </div>
 
     <table class="table table-bordered table-striped-columns" *ngIf="[employees && employees.length > 0]">
@@ -21,6 +20,11 @@
                 <td>{{employee.email}}</td>
                 <td>{{employee.phoneNumber}}</td>
                 <td>{{employee.staffCode}}</td>
+                <td>
+                    <button class="btn btn-sm btn-info"><i class="fa fa-search"></i>Details</button>
+                    <button class="btn btn-sm btn-warning"><i class="fa fa-edit"></i>Edit</button>
+                    <button class="btn btn-sm btn-danger"><i class="fa fa-remove"></i>Remove</button>
+                </td>
             </tr>
         </tbody>
     </table>

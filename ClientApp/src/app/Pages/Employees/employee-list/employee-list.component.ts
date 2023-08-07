@@ -14,6 +14,27 @@ export class EmployeeListComponent implements OnInit {
       email: '19522330@gmai.com',
       phoneNumber: 23213,
       staffCode: '4214214214'
+    },
+    {
+      id: '2132',
+      fullName: 'Le The Tiem',
+      email: '19522330@gmai.com',
+      phoneNumber: 23213,
+      staffCode: '4214214214'
+    },
+    {
+      id: '2132',
+      fullName: 'Le The Tiem',
+      email: '19522330@gmai.com',
+      phoneNumber: 23213,
+      staffCode: '4214214214'
+    },
+    {
+      id: '2132',
+      fullName: 'Le The Tiem',
+      email: '19522330@gmai.com',
+      phoneNumber: 23213,
+      staffCode: '4214214214'
     }
   ];
   constructor(){}
