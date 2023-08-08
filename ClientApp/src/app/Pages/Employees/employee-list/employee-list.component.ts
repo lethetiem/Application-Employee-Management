@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Employees } from 'src/app/Models/employees.model';
+import { EmployeesService } from 'src/app/Services/employees.service';
 
 @Component({
   selector: 'app-employee-list',
@@ -7,39 +8,17 @@ import { Employees } from 'src/app/Models/employees.model';
   styleUrls: ['./employee-list.component.css']
 })
 export class EmployeeListComponent implements OnInit {
-  employees: Employees[] = [
-    {
-      id: '2132',
-      fullName: 'Le The Tiem',
-      email: '19522330@gmai.com',
-      phoneNumber: 23213,
-      staffCode: '4214214214'
-    },
-    {
-      id: '2132',
-      fullName: 'Le The Tiem',
-      email: '19522330@gmai.com',
-      phoneNumber: 23213,
-      staffCode: '4214214214'
-    },
-    {
-      id: '2132',
-      fullName: 'Le The Tiem',
-      email: '19522330@gmai.com',
-      phoneNumber: 23213,
-      staffCode: '4214214214'
-    },
-    {
-      id: '2132',
-      fullName: 'Le The Tiem',
-      email: '19522330@gmai.com',
-      phoneNumber: 23213,
-      staffCode: '4214214214'
-    }
-  ];
-  constructor(){}
+  employees: Employees[] = [];
+  constructor(private employeesService: EmployeesService){}
 
   ngOnInit(): void{
-    this.employees.push();
+    this.employeesService.getAllEmployees().subscribe({
+      next: (employees) => {
+        this.employees = employees;
+      },
+      error: (response) => {
+        console.log(response)
+      }
+    })
   }
 }

@@ -14,6 +14,8 @@ import { NavbarComponent } from './Components/Navbar/navbar/navbar.component';
 import { BrandComponent } from './Components/Brand/brand/brand.component';
 import { FeatureComponent } from './Components/Feature/feature/feature.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClientModule } from '@angular/common/http';
+import { EmployeeAddComponent } from './Pages/Employees/employee-add/employee-add.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavbarComponent,
     BrandComponent,
     FeatureComponent,
+    EmployeeAddComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     DxToolbarModule,
     DxDropDownButtonModule,
     DxToolbarModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
