@@ -2,9 +2,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 9.6rem;
 
     padding: 2rem 6rem;
 }
+
+.sticky .stick-trick {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* background-color: rgba(255, 255, 255, 0.97); */
+    z-index: 999;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  
+  }
+  
 
 .aem__navbar-links{
     flex: 1;
@@ -18,8 +34,8 @@
 }
 
 .aem__navbar-links_logo img{
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 
@@ -30,16 +46,15 @@
     justify-content: flex-end;
 }
 
-.aem__navbar-sign{
+.aem__navbar-links_container-list{
     display: flex;
-    justify-content: flex-end;
+    gap: 3.2rem;
+    list-style: none;
     align-items: center;
 }
 
-.aem__navbar-links_container p,
-.aem__navbar-sign p,
-.aem__navbar-menu_container p {
-    color: #fff;
+.aem__navbar-links_container-list li{
+    color: var(--gradient-text);
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -50,60 +65,106 @@
     cursor: pointer;
 }
 
-.aem__navbar-sign button,
-.aem__navbar-menu_container button{
+
+.aem__navbar-cta{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.aem__navbar-cta li{
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 25px;
+    text-transform: capitalize;
+    list-style: none;
+
+    margin: 0 3rem;
+    cursor: pointer;
+}
+
+.aem__navbar-cta button
+{
     padding: 0.5rem 1rem;
     color: #fff;
     background: #FF4820;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 5px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    border-radius: 9px;
     border: 0;
     outline: none;
     cursor: pointer;
 }
 
-.aem__navbar-menu_container{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column;
-
-    text-align: end;
-    background: var(--color-footer);
-    padding: 2rem;
-    position: absolute;
-    top: 40px;
-    right: 0;
-    margin-top: 1rem;
-    min-width: 210;
-    border-radius: 5px;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+.aem__navbar-links_container-list:link,
+.aem__navbar-links_container-list:visited{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
 }
 
-::ng-deep #toolbar {
-    background-color: rgba(191, 191, 191, .15);
-    padding: 5px 10px;
+.aem__navbar-links_container-list:hover,
+.aem__navbar-links_container-list:active{
+    color: #CF7110;
 }
-::ng-deep .dx-toolbar-button .dx-button {
-    background-color: rgba(191, 191, 191, -0.15);
+
+.aem__navbar-cta:link,
+.aem__navbar-cta:visited{
+    padding: 1.2rem 2.4rem;
+    background-color: #FF4820;
+}
+
+.aem__navbar-cta li:hover,
+.aem__navbar-cta li:active{
+    color: #CF7110;
+}
+
+.aem__navbar-cta button:hover,
+.aem__navbar-cta button:active{
+    background-color: #CF7110;
+}
+
+.aem__navbar-menu_btn__mobile-navbar{
     border: none;
-}
-::ng-deep .dx-toolbar-button > .dx-toolbar-item-content {
-    margin-left: -7px;
-}
+    background: none;
+    cursor: pointer;
 
-.aem__navbar-menu{
-    margin-left: 1rem;
-
-    position: relative;
+    /* display: none; */
 }
 
-.active-link{
-    font-weight: bold;
-    color: var(--color-subtext);
+.icon-mobile-navbar{
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #333;
+}
+
+@media screen and (max-width: 940px) {
+    .aem__navbar-links_container {
+        display: none;
+    }
+
+    .aem__navbar-cta{
+        display: none;
+    }
+
+    /* .aem__navbar-menu {
+        
+        display: flex;
+    } */
+}
+
+@media screen and (max-width: 700px) {
+    .aem__navbar {
+        padding: 2rem 4rem;
+    }
 }
 
 

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./footer-build.component.css']
 })
 export class FooterBuildComponent {
-
+  logo: string = 'assets/ct&p-image.png';
 }

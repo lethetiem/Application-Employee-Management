@@ -1,19 +1,22 @@
-<div class="aem__navbar">
-    <div class="aem__navbar-links">
+<div class="aem__navbar sticky">
+    <div class="aem__navbar-links stick-trick">
         <div class="aem__navbar-links_logo">
             <img [src]= "logo" alt="logo-image">
         </div>
         <div class="aem__navbar-links_container">
-            <p><a routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a></p>
-            <p><a routerLink="Company" routerLinkActive="active-link">Company</a></p>
-            <p><a routerLink="Employees" routerLinkActive="active-link">Employee</a></p>
+            <div class="aem__navbar-links_container-list">
+                <li><a class="aem__navbar-links_container-list" routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a></li>
+                <li><a id="#tablecompany" class="aem__navbar-links_container-list" routerLink="Company" routerLinkActive="active-link">Company</a></li>
+                <li><a class="aem__navbar-links_container-list" routerLink="Employees" routerLinkActive="active-link">Employee</a></li>
+            </div>
         </div>
-        <div class="aem__navbar-sign">
-            <p>Sign in</p>
+        <div class="aem__navbar-cta">
+            <li>Sign in</li>
             <button type="button">Sign up</button>
         </div>
         <div class="aem__navbar-menu">
-            <dx-toolbar color="#fff" size="{27}" [items]="toolbarContent"></dx-toolbar>
+            <button class="aem__navbar-menu_btn__mobile-navbar"><i class="fa fa-list icon-mobile-navbar"></i></button>
+            <button class="aem__navbar-menu_btn__mobile-navbar"><i class="fa fa-x-lg icon-mobile-navbar"></i></button>
         </div>
     </div>
 </div>  
