@@ -3,5 +3,12 @@ export interface Employees{
     fullName: string;
     email: string;
     phoneNumber: number;
-    staffCode: string;
+    address: string;
+    companyCategory: string;
+    gender: Gender;
+}
+
+export enum Gender{
+    Male = 'Male',
+    Female = 'Female'
 }

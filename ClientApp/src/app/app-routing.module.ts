@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CompanyListComponent } from './Pages/Company/company-list/company-list.component';
 import { HomeComponent } from './Pages/Home/home/home.component';
 import { EmployeeListComponent } from './Pages/Employees/employee-list/employee-list.component';
+import { EmployeeAddComponent } from './Pages/Employees/employee-add/employee-add.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'Company',
     component: CompanyListComponent
+  },
+  {
+    path: 'Employees/Add',
+    component: EmployeeAddComponent
   }
 ];
 

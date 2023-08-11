@@ -16,6 +16,11 @@ import { FeatureComponent } from './Components/Feature/feature/feature.component
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { EmployeeAddComponent } from './Pages/Employees/employee-add/employee-add.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTableModule } from '@angular/material/table';
+
+// import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+// import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -39,7 +44,9 @@ import { EmployeeAddComponent } from './Pages/Employees/employee-add/employee-ad
     DxDropDownButtonModule,
     DxToolbarModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-employee-add',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./employee-add.component.css']
 })
 export class EmployeeAddComponent {
-
+  constructor(private router: Router){}
+  goBackToList(): void{
+    this.router.navigate(['/Employees'])
+  }
 }
