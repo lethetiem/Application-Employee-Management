@@ -23,11 +23,34 @@
 }
 
 .ame__section-cta__container-cta{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
     border-radius: 11px;
 }
+
+.ame__section-cta__container-cta__header{
+    margin-bottom: 2rem;
+}
+
+
+.aem__section-cta__btn-primary{
+    font-family: var(--font-family);
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fdf2e9;
+    text-transform: capitalize;
+    align-self: self-end;
+    background-color: #45260a;
+    padding: 1.4rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+
+.aem__section-cta__btn-primary{
+
+}
+
 
 .aem__section-cta__container-cta__table{
     column-gap: 3.2rem;

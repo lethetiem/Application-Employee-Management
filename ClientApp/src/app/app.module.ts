@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { EmployeeAddComponent } from './Pages/Employees/employee-add/employee-add.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
+import { MatButtonModule } from '@angular/material/button';
 
 // import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 // import { MatTableModule } from '@angular/material/table';
@@ -47,6 +48,7 @@ import { MatTableModule } from '@angular/material/table';
     HttpClientModule,
     BrowserAnimationsModule,
     MatTableModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
