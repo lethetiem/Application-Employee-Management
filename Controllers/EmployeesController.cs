@@ -1,6 +1,7 @@
 using Employees_Application.Data;
 using Employees_Application.DataAccess.Repository.IRepository;
 using Employees_Application.Models;
+using Employees_Application.Service.Services.IService;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,21 +9,15 @@ namespace Employees_Application.Controllers{
     [ApiController]
     [Route("api/[controller]")]
     public class EmployeesController : Controller {
-        private readonly IUnitOfWork _unitOfWork;
-        [HttpGet]
-        public IActionResult GetAllEmployees() {
-            var allObj = _unitOfWork.Employees.GetAll();
-            // return Ok(allObj);
-            return Json(new {data = allObj});
+        private readonly IEmployeeService _employeesService;
+        public EmployeesController(IEmployeeService employeeService) {
+            _employeesService = employeeService;
         }
 
-        [HttpPost]
-        public IActionResult AddEmployees([FromBody] Employee employeeRequest){
-            employeeRequest.Id = Guid.NewGuid();
-
-            _unitOfWork.Employees.Add(employeeRequest);
-            _unitOfWork.Save();
-            return Ok(employeeRequest);
+        [HttpGet]
+        public IActionResult GetAllEmployees() {
+            var allObj = _employeesService.GetAllEmployees();
+            return Ok(allObj);
         }
 
         // private readonly ApplicationDbContext _applicationDbContext;

@@ -1,4 +1,9 @@
 using Employees_Application.Data;
+using Employees_Application.DataAccess.Repository;
+using Employees_Application.DataAccess.Repository.IRepository;
+using Employees_Application.Service;
+using Employees_Application.Service.Services;
+using Employees_Application.Service.Services.IService;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +16,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("EmployeeConnectionString")));
+builder.Services.AddScoped<IEmployeesRepository, EmployeesRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddAutoMapperConfiguration();
+builder.Services.ConfigureServices();
+
 
 var app = builder.Build();
 

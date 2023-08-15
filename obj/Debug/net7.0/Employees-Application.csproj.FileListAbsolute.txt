@@ -119,3 +119,5 @@ C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-M
 C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.pdb
 C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.genruntimeconfig.cache
 C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\ref\Employees-Application.dll
+C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Dapper.dll
+C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\AutoMapper.dll

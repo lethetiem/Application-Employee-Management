@@ -1,6 +1,5 @@
 using Employees_Application.Data;
 using Employees_Application.DataAccess.Repository.IRepository;
-using Employees_Application.Models;
 
 namespace Employees_Application.DataAccess.Repository{
     public class UnitOfWork : IUnitOfWork{
@@ -11,10 +10,6 @@ namespace Employees_Application.DataAccess.Repository{
         }
 
         public IEmployeesRepository Employees {get; private set;}
-
-        public void Dispose(){
-            _db.Dispose();
-        }
 
         public void Save(){
             _db.SaveChanges();
