@@ -1,12 +1,9 @@
 namespace Employees_Application.DataAccess.Repository.IRepository{
     public interface IRepository<T> where T : class{
-        // T Get(int id);
         Task<T> GetByIdAsync(Guid id);
         Task<IEnumerable<T>> GetAllAsync();
         Task AddAsync(T entity);
-        IEnumerable<T> GetAll();
         Task UpdateAsync(T entity);
-
         Task DeleteAsync(T entity);
 
     }

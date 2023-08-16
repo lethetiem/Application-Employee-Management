@@ -41,14 +41,8 @@ export class EmployeeAddComponent {
     }
 
     let employeeData: Employees = this.employeeForm.value;
-    employeeData.fullName = this.employeeForm.value.fullName;
-    employeeData.email = this.employeeForm.value.email;
-    employeeData.phoneNumber = this.employeeForm.value.phoneNumber;
-    employeeData.address = this.employeeForm.value.address;
-    employeeData.companyCategory = this.employeeForm.value.companyCategory;
-    employeeData.gender = this.employeeForm.value.gender;
 
-     console.log (employeeData);
+    console.log (employeeData);
     this.employeesService.addNewEmployee(employeeData).subscribe({
       next: (employee) => {
         console.log('Employee added successfully', employee);
