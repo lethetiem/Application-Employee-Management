@@ -2,6 +2,7 @@ using Employees_Application.Data;
 using Employees_Application.DataAccess.Repository;
 using Employees_Application.DataAccess.Repository.IRepository;
 using Employees_Application.Service;
+using Employees_Application.Service.Mapper;
 using Employees_Application.Service.Services;
 using Employees_Application.Service.Services.IService;
 using Microsoft.EntityFrameworkCore;
@@ -19,7 +20,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 builder.Services.AddScoped<IEmployeesRepository, EmployeesRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
-builder.Services.AddAutoMapperConfiguration();
+builder.Services.AddAutoMapper(typeof(MapperConfig));
 builder.Services.ConfigureServices();
 
 

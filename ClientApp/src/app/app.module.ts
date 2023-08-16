@@ -19,6 +19,7 @@ import { EmployeeAddComponent } from './Pages/Employees/employee-add/employee-ad
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 // import { MatTableModule } from '@angular/material/table';
@@ -48,7 +49,9 @@ import { MatButtonModule } from '@angular/material/button';
     HttpClientModule,
     BrowserAnimationsModule,
     MatTableModule,
-    MatButtonModule
+    MatButtonModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

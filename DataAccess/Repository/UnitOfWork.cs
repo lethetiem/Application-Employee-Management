@@ -11,8 +11,8 @@ namespace Employees_Application.DataAccess.Repository{
 
         public IEmployeesRepository Employees {get; private set;}
 
-        public void Save(){
-            _db.SaveChanges();
+        public async Task<int> SaveChangesAsync(){
+            return await _db.SaveChangesAsync();
         }
     }
 }

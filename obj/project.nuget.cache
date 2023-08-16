@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NqgvYN7thc7VN+XozSPLCIoHseW/l1z681/EQsdgLD3pXyd69bIx/q91QWI++eeAqUfaebK4fpDPoTMsPtkCAg==",
+  "dgSpecHash": "5W6wh5ZbPo2AqmtzCfkJq01abluw/wG6n8EQrPivdpn7AGH7pUS/XRU1miaxPuvEiX5iei7MT4O2kDgBTpehuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ASAP\\Desktop\\New-Application-Employee-Management\\Application-Employee-Management\\Employees-Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASAP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\ASAP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",

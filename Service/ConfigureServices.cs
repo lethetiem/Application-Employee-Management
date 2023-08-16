@@ -6,7 +6,6 @@ namespace Employees_Application.Service{
         public static void ConfigureServices(this IServiceCollection services)
         {
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            services.AddAutoMapperConfiguration();
         }
     }
 }

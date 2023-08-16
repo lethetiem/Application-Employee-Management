@@ -1,14 +1,12 @@
 namespace Employees_Application.Service.DTO{
+    public enum Gender
+    {
+        Male,
+        Female
+    }
     public class EmployeeDTO{
-        public enum Gender
-        {
-            Male,
-            Female
-        }
-
-        public class Employee
-        {
-            public Guid Id { get; set; }
+        
+            public Guid? Id { get; set; }
             public string FullName { get; set; }
             public string Email { get; set; }
             public long PhoneNumber { get; set; }
@@ -16,5 +14,5 @@ namespace Employees_Application.Service.DTO{
             public string CompanyCategory { get; set; }
             public Gender Gender { get; set; }
         }
-    }
+    
 }

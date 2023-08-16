@@ -1,5 +1,3 @@
-using System.Linq.Expressions;
-using AutoMapper;
 using Employees_Application.Data;
 using Employees_Application.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
@@ -11,17 +9,28 @@ namespace Employees_Application.DataAccess.Repository{
 
         public Repository(ApplicationDbContext db){
             _db = db;
-            this.dbSet = _db.Set<T>();
+            dbSet = _db.Set<T>();
         }
 
-        public void Add(T entity){
-            dbSet.Add(entity);
+        public async Task<T> GetByIdAsync(Guid id){
+            return await _db.Set<T>().FindAsync(id);
         }
 
-        public T Get(int id){
-            return dbSet.Find(id);
+        public async Task<IEnumerable<T>> GetAllAsync(){
+            return await _db.Set<T>().ToListAsync();
         }
 
+        public async Task AddAsync(T entity){
+            await _db.Set<T>().AddAsync(entity);
+        }
+
+        public async Task UpdateAsync(T entity){
+            _db.Set<T>().Update(entity);
+        }
+
+        public async Task DeleteAsync(T entity){
+            _db.Set<T>().Remove(entity);
+        }
         public IEnumerable<T> GetAll(){
             return _db.Set<T>().ToList();
         }      

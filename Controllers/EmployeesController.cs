@@ -1,9 +1,6 @@
-using Employees_Application.Data;
-using Employees_Application.DataAccess.Repository.IRepository;
-using Employees_Application.Models;
+using Employees_Application.Service.DTO;
 using Employees_Application.Service.Services.IService;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace Employees_Application.Controllers{
     [ApiController]
@@ -15,32 +12,30 @@ namespace Employees_Application.Controllers{
         }
 
         [HttpGet]
-        public IActionResult GetAllEmployees() {
-            var allObj = _employeesService.GetAllEmployees();
-            return Ok(allObj);
+        public async Task<IActionResult> GetAllEmployees()
+        {
+            var employees = await _employeesService.GetAllEmployees();
+            return Ok(employees);
         }
 
-        // private readonly ApplicationDbContext _applicationDbContext;
-        // public EmployeesController(ApplicationDbContext applicationDbContext)
-        // {
-        //     _applicationDbContext = applicationDbContext;
-        // }
+        [HttpPost]
+        public async Task<IActionResult> AddNewEmployee(EmployeeDTO employeeRequest){
+            try{
+                await _employeesService.AddNewEmployee(employeeRequest);
+                return Ok("Employee added successfully.");
+            }catch(Exception ex){
+                return BadRequest($"Error adding employee: {ex.Message}");
+            }
+        }
 
-        // [HttpGet]
-        // public async Task<IActionResult> GetAllEmployees(){
-        //     var employees = await _applicationDbContext.Employees.ToListAsync();
-        //     return Ok(employees);
-        // }
-
-        // [HttpPost]
-        // public async Task<IActionResult> AddEmployee([FromBody] Employee employeeRequest){
-        //     employeeRequest.Id = Guid.NewGuid();
-
-        //     await _applicationDbContext.Employees.AddAsync(employeeRequest);
-        //     await _applicationDbContext.SaveChangesAsync();
-
-        //     return Ok(employeeRequest);
-        // }
-
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteEmployee(Guid id){
+            try{
+                await _employeesService.DeleteEmployee(id);
+                return Ok("Employee deleted successfully");
+            }catch(Exception ex){
+                return BadRequest($"Error deleting employee: {ex.Message}");
+            }
+        }
     }
 }
