@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Intern\\ASAP\\Project By TL\\Application-Employee-Management\\Employees-Application.csproj": {}
+    "C:\\Users\\Intern\\ASAP\\Project By TL\\Application-Employee-Management\\Employees-Application.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Intern\\ASAP\\Project By TL\\Application-Employee-Management\\Employees-Application.csproj": {
+    "C:\\Users\\Intern\\ASAP\\Project By TL\\Application-Employee-Management\\Employees-Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Intern\\ASAP\\Project By TL\\Application-Employee-Management\\Employees-Application.csproj",
+        "projectUniqueName": "C:\\Users\\Intern\\ASAP\\Project By TL\\Application-Employee-Management\\Employees-Application.csproj",
         "projectName": "Employees-Application",
-        "projectPath": "c:\\Users\\Intern\\ASAP\\Project By TL\\Application-Employee-Management\\Employees-Application.csproj",
+        "projectPath": "C:\\Users\\Intern\\ASAP\\Project By TL\\Application-Employee-Management\\Employees-Application.csproj",
         "packagesPath": "C:\\Users\\Intern\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Intern\\ASAP\\Project By TL\\Application-Employee-Management\\obj\\",
+        "outputPath": "C:\\Users\\Intern\\ASAP\\Project By TL\\Application-Employee-Management\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Intern\\AppData\\Roaming\\NuGet\\NuGet.Config"

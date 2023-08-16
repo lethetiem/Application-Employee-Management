@@ -12,9 +12,6 @@
             placeholder="Enter Full Name"
             formControlName="fullName"
           />
-          <!-- <small id="FullNameHelp" class="form-text text-muted"
-            >We'll never share your name with anyone else.</small
-          > -->
         </div>
         <div class="form-group">
         <label for="exampleInputEmail1">Email</label>
@@ -26,9 +23,6 @@
             placeholder="Enter email"
             formControlName="email"
           />
-          <!-- <small id="emailHelp" class="form-text text-muted"
-            >We'll never share your email with anyone else.</small
-          > -->
         </div>
         <div class="form-group">
           <label for="PhoneNumber">Phone Number</label>
@@ -40,9 +34,6 @@
             placeholder="Enter Phone Number"
             formControlName="phoneNumber"
           />
-          <!-- <small id="FullNameHelp" class="form-text text-muted"
-            >We'll never share your name with anyone else.</small
-          > -->
         </div>
         <div class="form-group">
           <label for="FullName">Address</label>
@@ -54,9 +45,6 @@
             placeholder="Enter Address"
             formControlName="address"
           />
-          <!-- <small id="FullNameHelp" class="form-text text-muted"
-            >We'll never share your name with anyone else.</small
-          > -->
         </div>
         <div class="form-group">
           <label for="CompanyCategory">Company Category</label>
@@ -68,9 +56,14 @@
         <div class="form-group">
           <label for="Gender">Gender</label>
           <select class="form-control" formControlName="gender">
-            <option selected="selected" hidden>--Select gender--</option>
-            <option>Male</option>
-            <option>Female</option>
+            <!-- <div  *ngFor="let gender of genderOptions; let i = index">
+              <option selected="selected" (click)="getSelectedGenders()">--Select gender--</option>
+              <option [(ngModel)]="genderOptions[i].value"></option>
+            </div> -->
+            <!-- <option value="" selected>--Select gender--</option> -->
+            <option value="" disabled selected>--Select gender--</option>
+            <option [value]="true">Male</option>
+            <option [value]="false">Female</option>
           </select>
         </div>
         <div class="aem__container-table__btn">

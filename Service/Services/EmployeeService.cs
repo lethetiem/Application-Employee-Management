@@ -26,11 +26,12 @@ namespace Employees_Application.Service.Services{
             await _unitOfWork.SaveChangesAsync();
         }
 
-        public async Task<EmployeeDTO> DeleteEmployee(Guid employeeDTO){
+        public async Task<bool> DeleteEmployee(Guid employeeDTO){
             var employeeEntity = await _unitOfWork.Employees.GetByIdAsync(employeeDTO);
             if(employeeEntity != null){
                 await _unitOfWork.Employees.DeleteAsync(employeeEntity);
-                return _mapper.Map<EmployeeDTO>(employeeEntity);
+                await _unitOfWork.SaveChangesAsync();
+                return true;
             }else{
                 throw new Exception("Employee not found"); 
             }

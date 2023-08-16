@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Employees } from 'src/app/Models/employees.model';
-import { EmployeesService } from 'src/app/services/employees.service';
+import { EmployeesService } from 'src/app/Services/employees.service';
 
 
 @Component({
@@ -32,6 +32,7 @@ export class EmployeeListComponent implements OnInit {
       this.employeesService.deleteEmployee(employeeId).subscribe({
         next: (employeeId) => {
           console.log('Employee deleted successfully', employeeId);
+          this.loadEmployee();
         },
         error: (response) => {
           console.error('Error deleting employee', response);
