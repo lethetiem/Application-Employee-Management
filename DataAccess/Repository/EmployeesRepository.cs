@@ -10,9 +10,6 @@ namespace Employees_Application.DataAccess.Repository{
             _db = db;
         }
 
-        // public IEnumerable<Employee> GetAllEmployees(){
-        //     return _db.Employees.ToList();
-        // }
         public async Task<IEnumerable<Employee>> GetAllEmployeeAsync(){
             return await GetAllAsync();
         }

@@ -30,9 +30,6 @@ namespace Employees_Application.DataAccess.Repository{
 
         public async Task DeleteAsync(T entity){
             _db.Set<T>().Remove(entity);
-        }
-        public IEnumerable<T> GetAll(){
-            return _db.Set<T>().ToList();
-        }      
+        }    
     }
 }
