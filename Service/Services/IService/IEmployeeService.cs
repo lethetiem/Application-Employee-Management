@@ -5,5 +5,7 @@ namespace Employees_Application.Service.Services.IService{
         Task<List<EmployeeDTO>> GetAllEmployees();
         Task AddNewEmployee(EmployeeDTO employeeDTO);
         Task<bool> DeleteEmployee(Guid employeeDTO);
+        Task<EmployeeDTO> UpdateEmployee(EmployeeDTO employeeDTO);
+        Task<EmployeeDTO> GetEmployee(Guid employeeDTO);
     }
 }

@@ -1,0 +1,89 @@
+.aem__section-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 4.8rem 10rem 12.8rem;
+  border: none;
+  table-layout: auto;
+  white-space: normal;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.aem__section-cta__container-cta__header{
+  margin-bottom: 2rem;
+  font-family: var(--font-family);
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  text-transform: capitalize;
+
+}
+
+.aem__section-cta__container-cta__content{
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.aem__section-cta__container-cta__content-form__table mat-form-field{
+  width: 100%;
+}
+
+.aem__section-cta__container-cta__content-form__table mat-form-field mat-error{
+  width: 100%;
+}
+
+
+.aem__section-cta__container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.ame__section-cta__container-cta {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+}
+
+.ame__section-cta__container-cta__card {
+  display: flex;
+  flex-direction: row;
+  row-gap: 2rem;
+  justify-content: center;
+}
+
+.aem__section-cta__container-cta__card mat-card-title {
+  font-size: 1.8rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+}
+
+:host {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+}
+
+.mat-form-field {
+  width: 100%;
+  min-width: 300px;
+}
+
+mat-card-title,
+mat-card-content {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  padding: 16px;
+  width: 300px;
+  color: white;
+  background-color: red;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}

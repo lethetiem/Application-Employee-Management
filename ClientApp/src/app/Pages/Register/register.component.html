@@ -1,0 +1,144 @@
+<mat-card class="aem__section-cta">
+  <mat-card-header class="aem__section-cta__container-cta__header">
+    <mat-card-title>Register</mat-card-title>
+  </mat-card-header>
+  <mat-card-content class="aem__section-cta__container-cta__content">
+    <form
+      [formGroup]="registerForm"
+      class="aem__section-cta__container-cta__content-form"
+    >
+      <mat-form-field class="example-full-width">
+        <input
+          [class.error]="
+            registerForm.controls['firstName'].dirty &&
+            registerForm.hasError('required', 'firstName')
+          "
+          matInput
+          placeholder="FirstName"
+          name="firstName"
+          required
+          formControlName="firstName"
+        />
+        <mat-error
+          class="text-danger"
+          *ngIf="
+            registerForm.controls['firstName'].dirty &&
+            registerForm.hasError('required', 'firstName')
+          "
+          >*FirstName is required</mat-error
+        >
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <input
+          [class.error]="
+            registerForm.controls['lastName'].dirty &&
+            registerForm.hasError('required', 'lastName')
+          "
+          matInput
+          placeholder="LastName"
+          name="lastName"
+          required
+          formControlName="lastName"
+        />
+        <mat-error
+          class="text-danger"
+          *ngIf="
+            registerForm.controls['lastName'].dirty &&
+            registerForm.hasError('required', 'lastName')
+          "
+          >*LastName is required</mat-error
+        >
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <input
+          [class.error]="
+            registerForm.controls['email'].dirty &&
+            registerForm.hasError('required', 'email')
+          "
+          matInput
+          placeholder="Email"
+          name="email"
+          required
+          formControlName="email"
+        />
+        <mat-error
+          class="text-danger"
+          *ngIf="
+            registerForm.controls['email'].dirty &&
+            registerForm.hasError('required', 'email')
+          "
+          >*Email is required</mat-error
+        >
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <input
+          [class.error]="
+            registerForm.controls['username'].dirty &&
+            registerForm.hasError('required', 'username')
+          "
+          matInput
+          placeholder="Username"
+          name="username"
+          required
+          formControlName="username"
+        />
+        <mat-error
+          class="text-danger"
+          *ngIf="
+            registerForm.controls['username'].dirty &&
+            registerForm.hasError('required', 'username')
+          "
+          >*Username is required</mat-error
+        >
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <input
+          [class.error]="
+            registerForm.controls['password'].dirty &&
+            registerForm.hasError('required', 'password')
+          "
+          matInput
+          type="text"
+          placeholder="Password"
+          [type]="hidePassword ? 'password' : 'text'"
+          name="password"
+          required
+          formControlName="password"
+        /><button
+          mat-icon-button
+          matSuffix
+          (click)="togglePasswordVisibility()"
+        >
+          <mat-icon>{{
+            hidePassword ? "visibility_off" : "visibility"
+          }}</mat-icon>
+        </button>
+        <mat-error
+          class="text-danger"
+          *ngIf="
+            registerForm.controls['password'].dirty &&
+            registerForm.hasError('required', 'password')
+          "
+          >*Password is required</mat-error
+        >
+      </mat-form-field>
+    </form>
+  </mat-card-content>
+  <mat-card-actions>
+    <button
+      mat-raised-button
+      type="submit"
+      (click)="onRegister()"
+      color="primary"
+    >
+      Register
+    </button>
+  </mat-card-actions>
+  <mat-card-actions>
+    <a id="forget" routerLink="">Already have account? </a>
+  </mat-card-actions>
+</mat-card>

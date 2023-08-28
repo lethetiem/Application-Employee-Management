@@ -37,5 +37,26 @@ namespace Employees_Application.Service.Services{
             }
         }
 
+        public async Task<EmployeeDTO> GetEmployee(Guid employeeDTO){
+            var employeeEntity = await _unitOfWork.Employees.GetByIdAsync(employeeDTO);
+            if(employeeEntity != null){
+                return _mapper.Map<EmployeeDTO>(employeeEntity);
+            }else{
+                throw new Exception("Employee not found");
+            }
+        }
+
+        public async Task<EmployeeDTO> UpdateEmployee(EmployeeDTO employeeDTO){
+            var existingEmployee = await _unitOfWork.Employees.GetByIdAsync(employeeDTO.Id.Value);
+            if(existingEmployee != null){
+                _mapper.Map(employeeDTO, existingEmployee);
+                await _unitOfWork.Employees.UpdateAsync(existingEmployee);
+                await _unitOfWork.SaveChangesAsync();
+                return _mapper.Map<EmployeeDTO>(existingEmployee);
+            }else{
+                throw new Exception("Employee not found");
+            }
+        }
+
     }
 }

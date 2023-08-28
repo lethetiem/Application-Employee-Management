@@ -25,5 +25,9 @@ namespace Employees_Application.DataAccess.Repository{
         public async Task Remove(Employee employee){
             await DeleteAsync(employee);
         }
+
+        public async Task Update(Employee employee){
+            await UpdateAsync(employee);
+        }
     }
 }

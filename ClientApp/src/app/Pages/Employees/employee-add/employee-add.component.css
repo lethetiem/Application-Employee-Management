@@ -1,42 +1,53 @@
-.aem__section-cta{
-    padding: 4.8rem 0 12.8rem;
-    background: var(--color-footer);
-    /* background: rgba(6, 30, 56, 1); */
-
-    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
-
-    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
-
-    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
-
-    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
-
-    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
-
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.aem__section-cta {
+  padding: 4.8rem 10rem 12.8rem;
 }
 
-.aem__section-cta__container{
-    max-width: 120rem;
-    padding: 0 3.2rem;
-    margin: 0 auto;
+.aem__section-cta__container-cta__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6rem;
+  padding: 6rem;
+  border: none;
+  table-layout: auto;
+  white-space: normal;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
 }
 
-.aem__section-cta__container-cta{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
-    border-radius: 11px;
+.aem__section-cta__container-cta__form mat-form-field input {
+  width: 100%;
+  font-size: 1.6rem;
 }
 
-.aem__section-cta__container-cta__form{
-    display: grid;
+.aem__section-cta__container-cta__form-gender{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+
+.aem__section-cta__container-cta__form-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+}
+
+.aem__section-cta__container-cta__form-btn button{
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 2rem;
+}
+
+/* .aem__section-cta__container-cta__form{
+     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 3.2rem;
     row-gap: 2.4rem;
-}
+} */
 
-.form-group label{
+/* .form-group label{
     font-family: var(--font-family);
     color: #fff;
     display: block;
@@ -96,7 +107,4 @@
 .aem__container-table__btn button:hover,
 .aem__container-table__btn button:active{
     color: #FF4820;
-}
-
-
-
+} */

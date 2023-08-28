@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { EmployeesService } from 'src/app/services/employees.service';
+import { EmployeesService } from 'src/app/Services/employees.service';
 import { Employees } from '../../../Models/employees.model';
 
 @Component({
@@ -12,7 +12,7 @@ import { Employees } from '../../../Models/employees.model';
 export class EmployeeAddComponent {
   employeeForm!: FormGroup;
   employees: Employees[] = [];
-
+  selectedGender: boolean | null = null
 
 
   constructor(
@@ -24,27 +24,27 @@ export class EmployeeAddComponent {
   ngOnInit(): void {
     this.employeeForm = this.formBuilder.group({
       fullName: ['', Validators.required],
-      email: ['', Validators.required],
+      email: ['', Validators.required, Validators.email],
       phoneNumber: ['', Validators.required],
       address: ['', Validators.required],
       companyCategory: ['', Validators.required],
-      // gender: this.formBuilder.array([]),
-      gender: [null]
+      gender: [null],
+      hideRequired: false
     });
   }
 
-  // genderOptions = [
-  //   {
-  //     label: 'Male', value: false
-  //   },
-  //   {
-  //     label: 'Female', value: false
-  //   }
-  // ]
+  genderOptions = [
+    {
+      label: 'Male', value: true
+    },
+    {
+      label: 'Female', value: false
+    }
+  ]
 
-  // getSelectedGenders(): string[] {
-  //   return this.genderOptions.filter(gender => gender.value).map(gender => gender.label);
-  // }
+  getSelectedGenders(): string[] {
+    return this.genderOptions.filter(gender => gender.value).map(gender => gender.label);
+  }
 
   goBackToList(): void {
     this.router.navigate(['/Employees']);

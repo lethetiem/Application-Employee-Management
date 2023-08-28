@@ -4,10 +4,13 @@ import { CompanyListComponent } from './Pages/Company/company-list/company-list.
 import { HomeComponent } from './Pages/Home/home/home.component';
 import { EmployeeListComponent } from './Pages/Employees/employee-list/employee-list.component';
 import { EmployeeAddComponent } from './Pages/Employees/employee-add/employee-add.component';
+import { EmployeeUpdateComponent } from './Pages/Employees/employee-update/employee-update.component';
+import { LoginFormComponent } from './Pages/Login/login-form/login-form.component';
+import { RegisterComponent } from './Pages/Register/register.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'Home',
     component: HomeComponent
   },
   {
@@ -21,6 +24,18 @@ const routes: Routes = [
   {
     path: 'Employees/Add',
     component: EmployeeAddComponent
+  },
+  {
+    path: 'Employees/Update/:id',
+    component: EmployeeUpdateComponent
+  },
+  {
+    path: '',
+    component: LoginFormComponent
+  },
+  {
+    path: 'signup',
+    component: RegisterComponent
   }
 ];
 

@@ -6,5 +6,6 @@ namespace Employees_Application.DataAccess.Repository.IRepository{
         Task CreateNewEmployee(Employee employee);
         Task<Employee> GetByIdAsync(int id);
         Task Remove(Employee employee);
+        Task Update(Employee employee);
     }
 }

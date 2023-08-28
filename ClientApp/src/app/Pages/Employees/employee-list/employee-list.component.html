@@ -1,58 +1,91 @@
-<div class="aem__section-cta" id="#tablecompany">
-  <div class="aem__section-cta__container">
-    <div class="aem__section-cta__container-cta">
-      <div class="aem__section-cta__container-cta__header">
-        <button
-          class="aem__section-cta__btn-primary"
-          routerLink="/Employees/Add"
-          routerLinkActive="active-link"
-          mat-button
-        >
-          <i id="myicon" class="fa fa-user"></i>New Employee
-        </button>
+<mat-card class="aem__section-cta" id="tablecompany">
+  <div class="aem__section-cta__container-cta">
+    <div class="aem__section-cta__container-cta__header">
+      <button
+        class="aem__section-cta__btn-primary"
+        routerLink="/Employees/Add"
+        routerLinkActive="active-link"
+        mat-raised-button color="primary"
+      >
+        <mat-icon id="myicon" class="fa fa-user"></mat-icon>New Employee
+      </button>
+    </div>
+    <div class="aem__section-cta__container-cta__table">
+      <div *ngIf="loading; else dataTable" class="aem__section-cta__container-cta__spinner">
+        <mat-spinner color="warm"></mat-spinner>
       </div>
-      <div class="aem__section-cta__container-cta__table">
-        <table
-          class="table table-bordered table-striped-columns"
-          *ngIf="[employees && employees.length > 0]"
-        >
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>Full Name</th>
-              <th>Email</th>
-              <th>Phone Number</th>
-              <th>Address</th>
-              <th>Company Category</th>
-              <th>Gender</th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr *ngFor="let employee of employees">
-              <td>{{ employee.id }}</td>
-              <td>{{ employee.fullName }}</td>
-              <td>{{ employee.email }}</td>
-              <td>{{ employee.phoneNumber }}</td>
-              <td>{{ employee.address }}</td>
-              <td>{{ employee.companyCategory }}</td>
-              <td>{{ employee.gender }}</td>
-              <td>
-                <button class="btn btn-sm btn-info">
-                  <i class="fa fa-search"></i>Details
-                </button>
-                <button class="btn btn-sm btn-warning">
-                  <i class="fa fa-edit"></i>Edit
-                </button>
-                <button class="btn btn-sm btn-danger" (click)="DeleteEmployee(employee.id)">
-                  <i class="fa fa-remove"></i>Remove
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <p *ngIf="[!employees || employees.length <= 0]">No Employee Found</p>
-      </div>
+      <ng-template #dataTable>
+        <mat-table
+        [dataSource]="dataSource"
+        class="mat-elevation-z8"
+        *ngIf="employees && employees.length > 0"
+      >
+        <ng-container matColumnDef="position">
+          <mat-header-cell *matHeaderCellDef>No. </mat-header-cell>
+          <mat-cell *matCellDef="let element; let i = index">
+            {{ i + 1 }}
+          </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="fullName">
+          <mat-header-cell *matHeaderCellDef> Full Name </mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            {{ element.fullName }}
+          </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="email">
+          <mat-header-cell *matHeaderCellDef> Email </mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{ element.email }} </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="phoneNumber">
+          <mat-header-cell *matHeaderCellDef> Phone Number </mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            {{ element.phoneNumber }}
+          </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="address">
+          <mat-header-cell *matHeaderCellDef> Address </mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            {{ element.address }}
+          </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="companyCategory">
+          <mat-header-cell *matHeaderCellDef>
+            Company Category
+          </mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            {{ element.companyCategory }}
+          </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="gender">
+          <mat-header-cell *matHeaderCellDef> Gender </mat-header-cell>
+          <mat-cell *matCellDef="let element">
+            {{ renderGender(element.gender) }}
+          </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="actions">
+          <mat-header-cell *matHeaderCellDef></mat-header-cell>
+          <mat-cell *matCellDef="let employee">
+            <button mat-icon-button>
+              <mat-icon>edit</mat-icon>
+            </button>
+            <button mat-icon-button color="warm" (click)="openDeleteDialog(employee.id, employee.fullName)">
+              <mat-icon>delete</mat-icon>
+            </button>
+          </mat-cell>
+        </ng-container>
+
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+      </mat-table>
+      </ng-template>
+      <p *ngIf="!employees || employees.length <= 0">No Employee Found</p>
     </div>
   </div>
-</div>
+</mat-card>

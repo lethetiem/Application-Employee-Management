@@ -1,0 +1,77 @@
+<div class="aem__section-cta">
+    <div class="aem__section-cta__container">
+      <div class="aem__section-cta__container-cta">
+        <form [formGroup]="employeeForm"  class="aem__section-cta__container-cta__form">
+          <div class="form-group">
+            <label for="FullName">Full Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="FullName1"
+              aria-describedby="FullNameHelp"
+              placeholder="Enter Full Name"
+              formControlName="fullName"
+            />
+          </div>
+          <div class="form-group">
+          <label for="exampleInputEmail1">Email</label>
+          <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+              formControlName="email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="PhoneNumber">Phone Number</label>
+            <input
+              type="input"
+              class="form-control"
+              id="FullName1"
+              aria-describedby="FullNameHelp"
+              placeholder="Enter Phone Number"
+              formControlName="phoneNumber"
+            />
+          </div>
+          <div class="form-group">
+            <label for="FullName">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="FullName1"
+              aria-describedby="FullNameHelp"
+              placeholder="Enter Address"
+              formControlName="address"
+            />
+          </div>
+          <div class="form-group">
+            <label for="CompanyCategory">Company Category</label>
+            <select class="form-control" formControlName="companyCategory">
+              <option selected="selected" hidden>--Select Company--</option>
+              <option>CT&P Solutions</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="Gender">Gender</label>
+            <select class="form-control" formControlName="gender" >
+              <!-- <div  *ngFor="let gender of genderOptions; let i = index">
+                <option selected="selected" (click)="getSelectedGenders()">--Select gender--</option>
+                <option [(ngModel)]="genderOptions[i].value"></option>
+              </div> -->
+              <!-- <option value="" selected>--Select gender--</option> -->
+              <option value="" disabled selected>--Select gender--</option>
+              <option [ngValue]="true">Male</option>
+              <option [ngValue]="false">Female</option>
+            </select>
+          </div>
+          <div class="aem__container-table__btn">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button class="btn btn-primary" (click)="goBackToList()">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  

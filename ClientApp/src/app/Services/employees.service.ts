@@ -27,4 +27,13 @@ export class EmployeesService {
     return this.http.delete(`${this.baseApiUrl}/api/employees/${employeeId}`);
   }
 
+  getEmployee(employeeId: any): Observable<any>{
+    console.log("service: ", employeeId);
+    return this.http.get(`${this.baseApiUrl}/api/employees/${employeeId}`);
+  }
+
+  updateEmployee(employeeId: any): Observable<any>{
+    console.log("service: ", employeeId);
+    return this.http.put(`${this.baseApiUrl}/api/employees/${employeeId}`, employeeId);
+  }
 }

@@ -1,209 +1,295 @@
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\appsettings.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\ClientApp\angular.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\ClientApp\package-lock.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\ClientApp\package.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\ClientApp\tsconfig.app.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\ClientApp\tsconfig.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\ClientApp\tsconfig.spec.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\Employees-Application.exe
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\Employees-Application.deps.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\Employees-Application.runtimeconfig.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\Employees-Application.dll
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\Employees-Application.pdb
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\Employees-Application.csproj.AssemblyReference.cache
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\Employees-Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\Employees-Application.AssemblyInfoInputs.cache
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\Employees-Application.AssemblyInfo.cs
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\Employees-Application.csproj.CoreCompileInputs.cache
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\Employees-Application.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\Employees-Application.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\staticwebassets\msbuild.Employees-Application.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\staticwebassets\msbuild.build.Employees-Application.props
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Employees-Application.props
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Employees-Application.props
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\scopedcss\bundle\Employees-Application.styles.css
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\Employees-Application.csproj.CopyComplete
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\Employees-Application.dll
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\refint\Employees-Application.dll
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\Employees-Application.pdb
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\Employees-Application.genruntimeconfig.cache
-C:\Users\Intern\ASAP\Application-Employee-Management\Employees-Application\obj\Debug\net7.0\ref\Employees-Application.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\appsettings.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\ClientApp\angular.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\ClientApp\package-lock.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\ClientApp\package.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\ClientApp\tsconfig.app.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\ClientApp\tsconfig.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\ClientApp\tsconfig.spec.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Employees-Application.exe
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Employees-Application.deps.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Employees-Application.runtimeconfig.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Employees-Application.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Employees-Application.pdb
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\AutoMapper.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Dapper.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Humanizer.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.csproj.AssemblyReference.cache
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.AssemblyInfoInputs.cache
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.AssemblyInfo.cs
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.csproj.CoreCompileInputs.cache
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\staticwebassets\msbuild.Employees-Application.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\staticwebassets\msbuild.build.Employees-Application.props
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Employees-Application.props
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Employees-Application.props
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\scopedcss\bundle\Employees-Application.styles.css
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.csproj.CopyComplete
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\refint\Employees-Application.dll
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.pdb
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.genruntimeconfig.cache
-C:\Users\ASAP\Desktop\New-Application-Employee-Management\Application-Employee-Management\obj\Debug\net7.0\ref\Employees-Application.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\appsettings.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\ClientApp\angular.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\ClientApp\package-lock.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\ClientApp\package.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\ClientApp\tsconfig.app.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\ClientApp\tsconfig.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\ClientApp\tsconfig.spec.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Employees-Application.exe
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Employees-Application.deps.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Employees-Application.runtimeconfig.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Employees-Application.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Employees-Application.pdb
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\AutoMapper.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Dapper.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Humanizer.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.csproj.AssemblyReference.cache
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.AssemblyInfoInputs.cache
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.AssemblyInfo.cs
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.csproj.CoreCompileInputs.cache
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\staticwebassets\msbuild.Employees-Application.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\staticwebassets\msbuild.build.Employees-Application.props
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Employees-Application.props
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Employees-Application.props
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\scopedcss\bundle\Employees-Application.styles.css
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.csproj.CopyComplete
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\refint\Employees-Application.dll
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.pdb
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\Employees-Application.genruntimeconfig.cache
-C:\Users\Intern\ASAP\Project By TL\Application-Employee-Management\obj\Debug\net7.0\ref\Employees-Application.dll
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/appsettings.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/ClientApp/angular.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/ClientApp/package-lock.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/ClientApp/package.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/ClientApp/tsconfig.app.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/ClientApp/tsconfig.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/ClientApp/tsconfig.spec.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/Employees-Application.exe
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/Employees-Application.deps.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/Employees-Application.runtimeconfig.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/Employees-Application.dll
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/Employees-Application.pdb
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/Microsoft.OpenApi.dll
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/Employees-Application.csproj.AssemblyReference.cache
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/Employees-Application.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/Employees-Application.AssemblyInfoInputs.cache
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/Employees-Application.AssemblyInfo.cs
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/Employees-Application.csproj.CoreCompileInputs.cache
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/Employees-Application.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/Employees-Application.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/staticwebassets/msbuild.Employees-Application.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/staticwebassets/msbuild.build.Employees-Application.props
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Employees-Application.props
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Employees-Application.props
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/scopedcss/bundle/Employees-Application.styles.css
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/Employees-Application.csproj.CopyComplete
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/Employees-Application.dll
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/refint/Employees-Application.dll
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/Employees-Application.pdb
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/Employees-Application.genruntimeconfig.cache
+C:/Users/Intern/ASAP/Application-Employee-Management/Employees-Application/obj/Debug/net7.0/ref/Employees-Application.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/appsettings.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/ClientApp/angular.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/ClientApp/package-lock.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/ClientApp/package.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/ClientApp/tsconfig.app.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/ClientApp/tsconfig.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/ClientApp/tsconfig.spec.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.exe
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.deps.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.runtimeconfig.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.pdb
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/AutoMapper.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Azure.Core.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Azure.Identity.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Dapper.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Humanizer.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.OpenApi.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Mono.TextTemplating.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/System.CodeDom.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/System.Drawing.Common.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/System.Memory.Data.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/System.Runtime.Caching.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/System.Security.Permissions.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/System.Windows.Extensions.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.csproj.AssemblyReference.cache
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.AssemblyInfoInputs.cache
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.AssemblyInfo.cs
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.csproj.CoreCompileInputs.cache
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/staticwebassets/msbuild.Employees-Application.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/staticwebassets/msbuild.build.Employees-Application.props
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Employees-Application.props
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Employees-Application.props
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/scopedcss/bundle/Employees-Application.styles.css
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.csproj.CopyComplete
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/refint/Employees-Application.dll
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.pdb
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.genruntimeconfig.cache
+C:/Users/ASAP/Desktop/New-Application-Employee-Management/Application-Employee-Management/obj/Debug/net7.0/ref/Employees-Application.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/appsettings.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/ClientApp/angular.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/ClientApp/package-lock.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/ClientApp/package.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/ClientApp/tsconfig.app.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/ClientApp/tsconfig.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/ClientApp/tsconfig.spec.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.exe
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.deps.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.runtimeconfig.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.pdb
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/AutoMapper.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Azure.Core.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Azure.Identity.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Dapper.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Humanizer.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.OpenApi.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Mono.TextTemplating.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/System.CodeDom.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/System.Drawing.Common.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/System.Memory.Data.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/System.Runtime.Caching.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/System.Security.Permissions.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/System.Windows.Extensions.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.csproj.AssemblyReference.cache
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.AssemblyInfoInputs.cache
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.AssemblyInfo.cs
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.csproj.CoreCompileInputs.cache
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/staticwebassets/msbuild.Employees-Application.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/staticwebassets/msbuild.build.Employees-Application.props
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Employees-Application.props
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Employees-Application.props
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/scopedcss/bundle/Employees-Application.styles.css
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.csproj.CopyComplete
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/refint/Employees-Application.dll
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.pdb
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.genruntimeconfig.cache
+C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net7.0/ref/Employees-Application.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/appsettings.Development.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/ClientApp/angular.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/ClientApp/tsconfig.app.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/ClientApp/tsconfig.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/ClientApp/tsconfig.spec.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/appsettings.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/ClientApp/package-lock.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/ClientApp/package.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Employees-Application
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.deps.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.runtimeconfig.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Employees-Application.pdb
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/AutoMapper.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Azure.Core.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Azure.Identity.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Dapper.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Humanizer.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/System.CodeDom.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/System.Memory.Data.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/System.Runtime.Caching.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.csproj.AssemblyReference.cache
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.AssemblyInfoInputs.cache
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.AssemblyInfo.cs
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.csproj.CoreCompileInputs.cache
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.MvcApplicationPartsAssemblyInfo.cs
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.MvcApplicationPartsAssemblyInfo.cache
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/staticwebassets/msbuild.Employees-Application.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/staticwebassets/msbuild.build.Employees-Application.props
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Employees-Application.props
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Employees-Application.props
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/staticwebassets.build.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/staticwebassets.development.json
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/scopedcss/bundle/Employees-Application.styles.css
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.csproj.CopyComplete
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/refint/Employees-Application.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.pdb
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.genruntimeconfig.cache
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/ref/Employees-Application.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/BCrypt.Net-Next.dll

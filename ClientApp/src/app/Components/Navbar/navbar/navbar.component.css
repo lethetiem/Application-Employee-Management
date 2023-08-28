@@ -1,144 +1,97 @@
-.aem__navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 9.6rem;
+.aem__navbar {
+  height: 9.6rem;
+  padding: 0rem 2rem;
+}
 
-    padding: 2rem 6rem;
+.mat-toolbar {
+  position: fixed;
+  z-index: 999;
 }
 
 .sticky .stick-trick {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 8rem;
-    padding-top: 0;
-    padding-bottom: 0;
-    /* background-color: rgba(255, 255, 255, 0.97); */
-    z-index: 999;
-    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
-  
-  }
-  
-
-.aem__navbar-links{
-    flex: 1;
-    display: flex;
-    justify-content: flex-star;
-    align-items: center;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
 
-.aem__navbar-links_logo{
-    margin-right: 2rem;
+.mat-toolbar .mat-toolbar-row {
+  padding: 2rem 6rem;
+  height: 9.6rem;
 }
 
-.aem__navbar-links_logo img{
-    width: 6rem;
-    height: 6rem;
+.aem__navbar-links_logo {
+  margin-right: 2rem;
 }
 
+.aem__navbar-links_logo img {
+  width: 6rem;
+  height: 6rem;
+}
 
 .aem__navbar-links_container {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  flex: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.aem__navbar-links_container-list{
-    display: flex;
-    gap: 3.2rem;
-    list-style: none;
-    align-items: center;
+.aem__navbar-links_container-list {
+  display: flex;
+  gap: 3.2rem;
 }
 
-.aem__navbar-links_container-list li{
-    color: var(--gradient-text);
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: capitalize;
-
-    margin: 0 3rem;
-    cursor: pointer;
+.aem__navbar-links_container-list a.mat-list-item {
+  margin: 0 3rem;
 }
 
-
-.aem__navbar-cta{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.aem__navbar-links_container-list a.mat-list-item:link,
+.aem__navbar-links_container-list a.mat-list-item:visited {
+  font-family: var(--font-family);
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  line-height: 2.5rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  transition: all 0.3s;
 }
 
-.aem__navbar-cta li{
-    color: #fff;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    text-decoration: none;
-    line-height: 25px;
-    text-transform: capitalize;
-    list-style: none;
-
-    margin: 0 3rem;
-    cursor: pointer;
+.aem__navbar-links_container-list a.mat-list-item:hover,
+.aem__navbar-links_container-list a.mat-list-item:active {
+  color: #cf7110;
 }
 
-.aem__navbar-cta button
-{
-    padding: 0.5rem 1rem;
-    color: #fff;
-    background: #FF4820;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 1.8rem;
-    line-height: 2.5rem;
-    border-radius: 9px;
-    border: 0;
-    outline: none;
-    cursor: pointer;
+.aem__navbar-cta button {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0 3rem;
+  font-weight: 700;
+  font-family: var(--font-family);
 }
 
-.aem__navbar-links_container-list:link,
-.aem__navbar-links_container-list:visited{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.8rem;
-    transition: all 0.3s;
+.aem__navbar-cta__Sign-up {
+  background: var(--gradient-text);
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  outline: none;
+  cursor: pointer;
 }
 
-.aem__navbar-links_container-list:hover,
-.aem__navbar-links_container-list:active{
-    color: #CF7110;
-}
-
-.aem__navbar-cta:link,
-.aem__navbar-cta:visited{
-    padding: 1.2rem 2.4rem;
-    background-color: #FF4820;
-}
-
-.aem__navbar-cta li:hover,
-.aem__navbar-cta li:active{
-    color: #CF7110;
+.aem__navbar-cta__Sign-in {
+  background: var(--gradient-bar);
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  outline: none;
+  cursor: pointer;
 }
 
 .aem__navbar-cta button:hover,
-.aem__navbar-cta button:active{
-    background-color: #CF7110;
+.aem__navbar-cta button:active {
+  color: #cf7110;
 }
 
-.aem__navbar-menu_btn__mobile-navbar{
-    border: none;
-    background: none;
-    cursor: pointer;
-
-    /* display: none; */
-}
 
 .icon-mobile-navbar{
     height: 4.8rem;
@@ -155,10 +108,6 @@
         display: none;
     }
 
-    /* .aem__navbar-menu {
-        
-        display: flex;
-    } */
 }
 
 @media screen and (max-width: 700px) {
@@ -166,6 +115,3 @@
         padding: 2rem 4rem;
     }
 }
-
-
-

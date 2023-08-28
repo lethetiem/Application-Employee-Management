@@ -1,0 +1,78 @@
+<mat-card class="aem__section-cta">
+  <mat-card-header class="aem__section-cta__container-cta__header">
+    <mat-card-title>Login</mat-card-title>
+  </mat-card-header>
+  <mat-card-content class="aem__section-cta__container-cta__content">
+    <form
+      [formGroup]="loginForm"
+      class="aem__section-cta__container-cta__content-form"
+    >
+      <table
+        class="aem__section-cta__container-cta__content-form__table"
+        cellspacing="0"
+      >
+        <mat-form-field class="example-full-width">
+          <input
+            [class.error]="
+              loginForm.controls['password'].dirty &&
+              loginForm.hasError('required', 'password')
+            "
+            matInput
+            placeholder="Username"
+            name="username"
+            required
+            formControlName="username"
+          />
+          <mat-error
+            class="text-danger"
+            *ngIf="
+              loginForm.controls['username'].dirty &&
+              loginForm.hasError('required', 'username')
+            "
+            >*Username is required</mat-error
+          >
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input
+            [class.error]="
+              loginForm.controls['password'].dirty &&
+              loginForm.hasError('required', 'password')
+            "
+            matInput
+            type="text"
+            placeholder="Password"
+            [type]="hidePassword ? 'password' : 'text'"
+            name="password"
+            required
+            formControlName="password"
+          /><button
+            mat-icon-button
+            matSuffix
+            (click)="togglePasswordVisibility()"
+          >
+            <mat-icon>{{
+              hidePassword ? "visibility_off" : "visibility"
+            }}</mat-icon>
+          </button>
+          <mat-error
+            class="text-danger"
+            *ngIf="
+              loginForm.controls['password'].dirty &&
+              loginForm.hasError('required', 'password')
+            "
+            >*Password is required</mat-error
+          >
+        </mat-form-field>
+      </table>
+    </form>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button type="submit" (click)="onLogin()" color="primary">
+      Login
+    </button>
+  </mat-card-actions>
+  <mat-card-actions>
+    <a id="forget" routerLink="/signup">Sign up </a>
+  </mat-card-actions>
+</mat-card>
