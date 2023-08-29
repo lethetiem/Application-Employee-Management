@@ -16,5 +16,10 @@ export class AuthService {
     console.log("Service", loginObj);
     return this.http.post<any>(`${this.baseApiUrl}/api/User/login`, {loginObj});
    }
+
+   register(registerObj: any): Observable<any>{
+    console.log("Service", registerObj);
+    return this.http.post<any>(`${this.baseApiUrl}/api/User/register`, {registerObj});
+   }
 }
  

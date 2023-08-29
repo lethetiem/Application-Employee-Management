@@ -8,6 +8,7 @@ namespace Employees_Application.Service.Mapper{
         public MappingProfile()
         {
             CreateMap<Employee, EmployeeDTO>().ReverseMap();
+            CreateMap<User, UserDTO>().ReverseMap();
         }
     }
 }

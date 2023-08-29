@@ -1,12 +1,11 @@
 using Employees_Application.Service.DTO;
 using Employees_Application.Service.Services.IService;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Employees_Application.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
     public class EmployeesController : Controller
     {
         private readonly IEmployeeService _employeesService;

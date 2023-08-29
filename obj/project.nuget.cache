@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K2q/Iip4H4yKVFS1NCYT35jlPQ4J4xCP+aS6MhAu4MH6eXO2dKEd0gaAKvQ6OkworBSyi6Ag+0LL5TYIXjLhxA==",
+  "dgSpecHash": "oM/x+4yxxFSq9zaEUOFgTpMGqz7g0cJ2cRYB4lsXzJPgVeAIQIvfkKid2XHsUEUVMRKYp8DCkpw2zpquvXxpPQ==",
   "success": true,
   "projectFilePath": "/Users/tiemle/Desktop/ASAP/Application-Employee-Management/Employees-Application.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "/Users/tiemle/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/tiemle/.nuget/packages/dapper/2.0.143/dapper.2.0.143.nupkg.sha512",
     "/Users/tiemle/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/tiemle/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.10/microsoft.aspnetcore.authentication.jwtbearer.7.0.10.nupkg.sha512",
     "/Users/tiemle/.nuget/packages/microsoft.aspnetcore.cors/2.2.0/microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "/Users/tiemle/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "/Users/tiemle/.nuget/packages/microsoft.aspnetcore.http.extensions/2.2.0/microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",

@@ -11,13 +11,13 @@ namespace Employees_Application.DataAccess.Repository{
             _db = db;
         }
 
-        public async Task<User> GetUserByUsernameAsync(string username){
-            return await _db.Users.SingleOrDefaultAsync(x => x.UserName == username);
+        public async Task<User> GetUserByUsernameAsync(User user){
+            // return await _db.Users.SingleOrDefaultAsync(x => x.UserName == username);
+            return await _db.Users.FirstOrDefaultAsync(x => x.UserName == user.UserName && x.Password == user.Password);
         }
 
         public async Task AddUserAsync(User user){
-            await _db.Users.AddAsync(user);
-            await _db.SaveChangesAsync();
+            await AddAsync(user);
         }
 
     }

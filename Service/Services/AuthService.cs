@@ -1,28 +1,42 @@
+using AutoMapper;
 using Employees_Application.DataAccess.Repository.IRepository;
 using Employees_Application.Models;
+using Employees_Application.Service.DTO;
 using Employees_Application.Service.Services.IService;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Employees_Application.Service.Services{
-    public class AuthService : IAuthService{
-        private readonly IUsersRepository _usersRepository;
+namespace Employees_Application.Service.Services
+{
+    public class AuthService : IAuthService
+    {
         private readonly ITokenService _tokenService;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IMapper _mapper;
 
-        public AuthService(IUsersRepository usersRepository, ITokenService tokenService){
-            _usersRepository = usersRepository;
+        public AuthService(IUnitOfWork unitOfWork, ITokenService tokenService, IMapper mapper)
+        {
+            _unitOfWork = unitOfWork;
             _tokenService = tokenService;
+            _mapper = mapper;
         }
-
-        private bool VerifyPasswordHash(string password, string storedPassword){
-            return BCrypt.Net.BCrypt.Verify(password, storedPassword);
-        }
-
-        public async Task<AuthResult> LoginAsync(User user){
-            var userLogin = await _usersRepository.GetUserByUsernameAsync(user.UserName);
-            if(userLogin == null || !VerifyPasswordHash(user.Password, userLogin.Password)){
-                return AuthResult.Failure("Invalid username or password");
+        public async Task<string> AuthenticationAsync(UserDTO userDTO)
+        {
+            var userEntity = _mapper.Map<User>(userDTO);
+            var user = await _unitOfWork.Users.GetUserByUsernameAsync(userEntity);
+            if (user == null)
+            {
+                throw new ApplicationException("Invalid username or password");
             }
-            var token = _tokenService.GenerateToken(userLogin);
-            return AuthResult.Success(token);
+            // return _tokenService.GenerateToken(userEntity);
+            return user.UserName;
+        }
+
+        public async Task RegisterAsync(UserDTO userDTO)
+        {
+            var user = _mapper.Map<User>(userDTO);
+            await _unitOfWork.Users.AddUserAsync(user);
+            await _unitOfWork.SaveChangesAsync();
         }
     }
 }

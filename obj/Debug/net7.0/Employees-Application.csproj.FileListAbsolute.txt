@@ -293,3 +293,4 @@ C:/Users/Intern/ASAP/Project By TL/Application-Employee-Management/obj/Debug/net
 /Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/Employees-Application.genruntimeconfig.cache
 /Users/tiemle/Desktop/ASAP/Application-Employee-Management/obj/Debug/net7.0/ref/Employees-Application.dll
 /Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/BCrypt.Net-Next.dll
+/Users/tiemle/Desktop/ASAP/Application-Employee-Management/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
