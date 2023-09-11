@@ -23,13 +23,13 @@
             required
             formControlName="username"
           />
-          <mat-error
+          <mat-hint
             class="text-danger"
             *ngIf="
               loginForm.controls['username'].dirty &&
               loginForm.hasError('required', 'username')
             "
-            >*Username is required</mat-error
+            >*Username is required</mat-hint
           >
         </mat-form-field>
 
@@ -55,13 +55,13 @@
               hidePassword ? "visibility_off" : "visibility"
             }}</mat-icon>
           </button>
-          <mat-error
+          <mat-hint
             class="text-danger"
             *ngIf="
               loginForm.controls['password'].dirty &&
               loginForm.hasError('required', 'password')
             "
-            >*Password is required</mat-error
+            >*Password is required</mat-hint
           >
         </mat-form-field>
       </table>

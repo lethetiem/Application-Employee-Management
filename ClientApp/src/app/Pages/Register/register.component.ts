@@ -7,7 +7,7 @@ import ValidateForm from '../../Helpers/validateForm';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
-  styleUrls: ['./register.component.css']
+  styleUrls: ['./register.component.css'],
 })
 export class RegisterComponent implements OnInit {
   hidePassword = true;
@@ -40,15 +40,18 @@ export class RegisterComponent implements OnInit {
         next: (response) => {
           alert(response.message);
           this.registerForm.reset();
-          this.router.navigate(['Home'])
+          this.router.navigate(['']);
         },
         error: (err) => {
-          alert(err?.error.message);
+          if (err && err.error) {
+            alert(err.error.error);
+          } else {
+            alert('An error occurred during registration.');
+          }
         },
       });
     } else {
       ValidateForm.validateAllFormField(this.registerForm);
-      alert('Form is not valid');
-    } 
+    }
   }
 }

@@ -1,1 +1,19 @@
-<h1>Home Page Here</h1>
+<!-- <h1>Home Page Here</h1> -->
+
+<mat-menu #rootMenu="matMenu">
+  <button
+    mat-menu-item
+    color="accent"
+    class="aem__navbar-cta__Sign-up"
+    [matMenuTriggerFor]="subMenu"
+  >
+    <mat-icon>person</mat-icon>
+  </button>
+  <button mat-menu-item>settings</button>
+</mat-menu>
+<mat-menu #subMenu="matMenu">
+  <ng-template matMenuContent>
+    <button mat-menu-item>Profile</button>
+    <button mat-menu-item>LogOut</button>
+  </ng-template>
+</mat-menu>

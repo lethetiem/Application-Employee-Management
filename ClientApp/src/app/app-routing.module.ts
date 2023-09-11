@@ -7,40 +7,56 @@ import { EmployeeAddComponent } from './Pages/Employees/employee-add/employee-ad
 import { EmployeeUpdateComponent } from './Pages/Employees/employee-update/employee-update.component';
 import { LoginFormComponent } from './Pages/Login/login-form/login-form.component';
 import { RegisterComponent } from './Pages/Register/register.component';
+import { AuthGuard } from './Guards/auth.guard';
 
 const routes: Routes = [
   {
     path: 'Home',
-    component: HomeComponent
+    component: HomeComponent,
+    canActivate: [AuthGuard],
   },
   {
     path: 'Employees',
-    component: EmployeeListComponent
+    component: EmployeeListComponent,
+    canActivate: [AuthGuard],
   },
   {
     path: 'Company',
-    component: CompanyListComponent
+    component: CompanyListComponent,
+    canActivate: [AuthGuard],
   },
   {
     path: 'Employees/Add',
-    component: EmployeeAddComponent
+    component: EmployeeAddComponent,
+    canActivate: [AuthGuard],
   },
   {
     path: 'Employees/Update/:id',
-    component: EmployeeUpdateComponent
+    component: EmployeeUpdateComponent,
+    canActivate: [AuthGuard],
   },
   {
-    path: '',
-    component: LoginFormComponent
+    path: 'login',
+    component: LoginFormComponent,
   },
   {
     path: 'signup',
-    component: RegisterComponent
-  }
+    component: RegisterComponent,
+  },
+  {
+    path: '**',
+    redirectTo: 'Home',
+    // canActivate: [AuthGuard],
+  },
+  {
+    path: '',
+    redirectTo: 'login',
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

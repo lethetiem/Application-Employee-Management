@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import ValidateForm from '../../../Helpers/validateForm';
 import { AuthService } from '../../../Services/auth.service';
 import { Router } from '@angular/router';
+import { NgToastService } from 'ng-angular-popup';
 
 @Component({
   selector: 'app-login-form',
@@ -17,7 +18,8 @@ export class LoginFormComponent implements OnInit {
   constructor(
     private formBuilder: FormBuilder,
     private authService: AuthService,
-    private router: Router
+    private router: Router,
+    private toast: NgToastService
   ) {}
 
   ngOnInit(): void {
@@ -32,20 +34,36 @@ export class LoginFormComponent implements OnInit {
 
   onLogin() {
     if (this.loginForm.valid) {
-      console.log(this.loginForm.value);
       this.authService.login(this.loginForm.value).subscribe({
         next: (response) => {
-          alert(response.message);
           this.loginForm.reset();
-          this.router.navigate(['Home'])
+          this.authService.storeToken(response.token);
+          this.toast.success({
+            detail: 'SUCCESS',
+            summary: response.message,
+            duration: 5000,
+          });
+          this.router.navigate(['Home']);
         },
         error: (err) => {
-          alert(err?.error.message);
+          if (err && err.error) {
+            this.toast.error({
+              detail: 'ERROR',
+              summary: 'Something when wrong!',
+              duration: 5000,
+            });
+          } else {
+            alert('An error occurred during login.');
+          }
         },
       });
     } else {
       ValidateForm.validateAllFormField(this.loginForm);
-      alert('Form is not valid');
+      this.toast.error({
+        detail: 'ERROR',
+        summary: 'Something when wrong!',
+        duration: 5000,
+      });
     }
   }
 }

@@ -1,3 +1,4 @@
+import { AuthService } from './../../../Services/auth.service';
 import { Component } from '@angular/core';
 
 
@@ -10,21 +11,10 @@ import { Component } from '@angular/core';
 
 export class NavbarComponent {
   logo: string = 'assets/ct&p-image.png';
-  toolbarContent = [{
-    widget: 'dxButton',
-    location: 'before',
-    options: {
-      icon: 'menu',
-      // onClick: () => this.isDrawerOpen = !this.isDrawerOpen,
-    },
-  }];
+  constructor(private authService: AuthService){}
 
-  isDrawerOpen: boolean = false;
-  buttonOptions: any = {
-      icon: "menu",
-      onClick: () => {
-          this.isDrawerOpen = !this.isDrawerOpen;
-      }
+  logout(){
+    this.authService.signOut();
   }
 }
 

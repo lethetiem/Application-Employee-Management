@@ -1,17 +1,16 @@
 <div class="App">
-    <header class="header">
-        <app-navbar></app-navbar>
-    </header>
-    <main>
-        <section class="section-hero">
-          <div class="hero">
-            <router-outlet></router-outlet>
-          </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <app-footer-build></app-footer-build>
-    </footer>
+  <header *ngIf="!isLogInPage" class="header">
+    <app-navbar></app-navbar>
+  </header>
+  <main>
+    <section class="section-hero">
+      <div class="hero">
+        <router-outlet></router-outlet>
+        <ng-toast></ng-toast>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" *ngIf="!isLogInPage">
+    <app-footer-build></app-footer-build>
+  </footer>
 </div>
-
-

@@ -7,7 +7,11 @@
       [formGroup]="registerForm"
       class="aem__section-cta__container-cta__content-form"
     >
-      <mat-form-field class="example-full-width">
+      <mat-form-field
+        [floatLabel]="registerForm.value.floatLabel"
+        class="example-full-width"
+      >
+        <mat-label>First Name</mat-label>
         <input
           [class.error]="
             registerForm.controls['firstName'].dirty &&
@@ -19,17 +23,21 @@
           required
           formControlName="firstName"
         />
-        <mat-error
+        <mat-hint
           class="text-danger"
           *ngIf="
             registerForm.controls['firstName'].dirty &&
             registerForm.hasError('required', 'firstName')
           "
-          >*FirstName is required</mat-error
+          >*First Name is required</mat-hint
         >
       </mat-form-field>
 
-      <mat-form-field class="example-full-width">
+      <mat-form-field
+        [floatLabel]="registerForm.value.floatLabel"
+        class="example-full-width"
+      >
+        <mat-label>Last Name</mat-label>
         <input
           [class.error]="
             registerForm.controls['lastName'].dirty &&
@@ -41,17 +49,21 @@
           required
           formControlName="lastName"
         />
-        <mat-error
+        <mat-hint
           class="text-danger"
           *ngIf="
             registerForm.controls['lastName'].dirty &&
             registerForm.hasError('required', 'lastName')
           "
-          >*LastName is required</mat-error
+          >*Last Name is required</mat-hint
         >
       </mat-form-field>
 
-      <mat-form-field class="example-full-width">
+      <mat-form-field
+        [floatLabel]="registerForm.value.floatLabel"
+        class="example-full-width"
+      >
+        <mat-label>Email</mat-label>
         <input
           [class.error]="
             registerForm.controls['email'].dirty &&
@@ -63,17 +75,21 @@
           required
           formControlName="email"
         />
-        <mat-error
+        <mat-hint
           class="text-danger"
           *ngIf="
             registerForm.controls['email'].dirty &&
             registerForm.hasError('required', 'email')
           "
-          >*Email is required</mat-error
+          >*Email is required</mat-hint
         >
       </mat-form-field>
 
-      <mat-form-field class="example-full-width">
+      <mat-form-field
+        [floatLabel]="registerForm.value.floatLabel"
+        class="example-full-width"
+      >
+        <mat-label>Username</mat-label>
         <input
           [class.error]="
             registerForm.controls['username'].dirty &&
@@ -85,17 +101,21 @@
           required
           formControlName="username"
         />
-        <mat-error
+        <mat-hint
           class="text-danger"
           *ngIf="
             registerForm.controls['username'].dirty &&
             registerForm.hasError('required', 'username')
           "
-          >*Username is required</mat-error
+          >*Username is required</mat-hint
         >
       </mat-form-field>
 
-      <mat-form-field class="example-full-width">
+      <mat-form-field
+        [floatLabel]="registerForm.value.floatLabel"
+        class="example-full-width"
+      >
+        <mat-label>Password</mat-label>
         <input
           [class.error]="
             registerForm.controls['password'].dirty &&
@@ -117,13 +137,13 @@
             hidePassword ? "visibility_off" : "visibility"
           }}</mat-icon>
         </button>
-        <mat-error
+        <mat-hint
           class="text-danger"
           *ngIf="
             registerForm.controls['password'].dirty &&
             registerForm.hasError('required', 'password')
           "
-          >*Password is required</mat-error
+          >*Password is required</mat-hint
         >
       </mat-form-field>
     </form>

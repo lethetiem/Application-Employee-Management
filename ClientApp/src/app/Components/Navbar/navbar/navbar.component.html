@@ -1,20 +1,48 @@
 <mat-toolbar color="purple-green" class="aem__navbar sticky">
-    <div class="mat-toolbar-row stick-trick">
-        <div class="aem__navbar-links_logo">
-            <img [src]="logo" alt="logo-image">
-        </div>
-        <div class="aem__navbar-links_container">
-            <div class="aem__navbar-links_container-list">
-                <a class= "mat-list-item" routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
-                <a id="tablecompany" class="mat-list-item" routerLink="Company" routerLinkActive="active-link">Company</a>
-                <a class="mat-list-item" routerLink="Employees" routerLinkActive="active-link">Employee</a>
-            </div>
-        </div>
-        <div class="aem__navbar-cta">
-            <button mat-button class="aem__navbar-cta__Sign-in">Sign in</button>
-            <button mat-raised-button class="aem__navbar-cta__Sign-up">Sign up</button>
-        </div>
+  <div class="mat-toolbar-row stick-trick">
+    <div class="aem__navbar-links_logo">
+      <img [src]="logo" alt="logo-image" />
     </div>
+    <div class="aem__navbar-links_container">
+      <div class="aem__navbar-links_container-list">
+        <a
+          class="mat-list-item"
+          routerLink="Home"
+          routerLinkActive="active-link"
+          [routerLinkActiveOptions]="{ exact: true }"
+          ><mat-icon>home</mat-icon></a
+        >
+        <a
+          id="tablecompany"
+          class="mat-list-item"
+          routerLink="Company"
+          routerLinkActive="active-link"
+          >Company</a
+        >
+        <a
+          class="mat-list-item"
+          routerLink="Employees"
+          routerLinkActive="active-link"
+          >Employee</a
+        >
+      </div>
+    </div>
+    <div class="aem__navbar-cta">
+      <button
+        mat-menu-item
+        color="accent"
+        class="aem__navbar-cta__Sign-up"
+        [matMenuTriggerFor]="subMenu"
+      >
+        <mat-icon>person</mat-icon>
+      </button>
+      <mat-menu #subMenu="matMenu">
+        <ng-template matMenuContent>
+          <button mat-menu-item>Profile</button>
+          <button mat-menu-item (click)="logout()">LogOut</button>
+        </ng-template>
+      </mat-menu>
+    </div>
+  </div>
 </mat-toolbar>
-
 

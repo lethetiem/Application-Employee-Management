@@ -14,9 +14,10 @@ import { RegisterComponent } from './Pages/Register/register.component';
 import { DeleteDialogsComponent } from './Pages/Dialogs/delete-dialogs/delete-dialogs.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgToastModule } from 'ng-angular-popup';
 import { AppRoutingModule } from './app-routing.module';
 
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -34,9 +35,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
-
-// import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-// import { MatTableModule } from '@angular/material/table';
+import { MatMenuModule } from '@angular/material/menu';
+import { TokenInterceptor } from './Interceptors/token.interceptor';
 
 @NgModule({
   declarations: [
@@ -56,6 +56,7 @@ import { MatRadioModule } from '@angular/material/radio';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    NgToastModule,
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
@@ -73,9 +74,14 @@ import { MatRadioModule } from '@angular/material/radio';
     MatSnackBarModule,
     MatProgressSpinnerModule,
     MatSelectModule,
-    MatRadioModule
+    MatRadioModule,
+    MatMenuModule,
   ],
-  providers: [],
+  providers: [{
+    provide: HTTP_INTERCEPTORS,
+    useClass: TokenInterceptor,
+    multi: true
+  }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
