@@ -11,7 +11,7 @@ namespace Employees_Application.Service{
             // services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IAuthService, AuthService>();
             // services.AddScoped<IEmployeeService, EmployeeService>();
-            services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IJwtService, JwtService>();
         }
     }
 }

@@ -4,51 +4,68 @@ using Employees_Application.Models;
 using Employees_Application.Service.DTO;
 using Employees_Application.Service.Services.IService;
 
-namespace Employees_Application.Service.Services{
-    public class EmployeeService : IEmployeeService{
+namespace Employees_Application.Service.Services
+{
+    public class EmployeeService : IEmployeeService
+    {
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _unitOfWork;
 
-        public EmployeeService(IMapper mapper, IUnitOfWork unitOfWork){
+        public EmployeeService(IMapper mapper, IUnitOfWork unitOfWork)
+        {
             _mapper = mapper;
             _unitOfWork = unitOfWork;
         }
-        public async Task<List<EmployeeDTO>> GetAllEmployees(){
+        public async Task<List<EmployeeDTO>> GetAllEmployees()
+        {
             var employee = await _unitOfWork.Employees.GetAllEmployeeAsync();
             var employeeDTO = _mapper.Map<List<EmployeeDTO>>(employee);
             return employeeDTO;
         }
-        public async Task AddNewEmployee(EmployeeDTO employeeDTO){
+        public async Task AddNewEmployee(EmployeeDTO employeeDTO)
+        {
             var employeeEntity = _mapper.Map<Employee>(employeeDTO);
             await _unitOfWork.Employees.AddAsync(employeeEntity);
             await _unitOfWork.SaveChangesAsync();
         }
-        public async Task<bool> DeleteEmployee(Guid employeeDTO){
+        public async Task<bool> DeleteEmployee(Guid employeeDTO)
+        {
             var employeeEntity = await _unitOfWork.Employees.GetByIdAsync(employeeDTO);
-            if(employeeEntity != null){
+            if (employeeEntity != null)
+            {
                 await _unitOfWork.Employees.DeleteAsync(employeeEntity);
                 await _unitOfWork.SaveChangesAsync();
                 return true;
-            }else{
-                throw new Exception("Employee not found"); 
             }
-        }
-        public async Task<EmployeeDTO> GetEmployee(Guid employeeDTO){
-            var employeeEntity = await _unitOfWork.Employees.GetByIdAsync(employeeDTO);
-            if(employeeEntity != null){
-                return _mapper.Map<EmployeeDTO>(employeeEntity);
-            }else{
+            else
+            {
                 throw new Exception("Employee not found");
             }
         }
-        public async Task<EmployeeDTO> UpdateEmployee(EmployeeDTO employeeDTO){
+        public async Task<EmployeeDTO> GetEmployee(Guid employeeDTO)
+        {
+            var employeeEntity = await _unitOfWork.Employees.GetByIdAsync(employeeDTO);
+            if (employeeEntity != null)
+            {
+                return _mapper.Map<EmployeeDTO>(employeeEntity);
+            }
+            else
+            {
+                throw new Exception("Employee not found");
+            }
+        }
+        public async Task<EmployeeDTO> UpdateEmployee(EmployeeDTO employeeDTO)
+        {
             var existingEmployee = await _unitOfWork.Employees.GetByIdAsync(employeeDTO.Id.Value);
-            if(existingEmployee != null){
+            if (existingEmployee != null)
+            {
                 _mapper.Map(employeeDTO, existingEmployee);
-                await _unitOfWork.Employees.UpdateAsync(existingEmployee);
+                await _unitOfWork.Employees.Update(existingEmployee);
                 await _unitOfWork.SaveChangesAsync();
                 return _mapper.Map<EmployeeDTO>(existingEmployee);
-            }else{
+            }
+            else
+            {
                 throw new Exception("Employee not found");
             }
         }

@@ -1,4 +1,3 @@
-using Azure.Core;
 using Employees_Application.Service.DTO;
 using Employees_Application.Service.Services.IService;
 using Microsoft.AspNetCore.Mvc;
@@ -11,9 +10,12 @@ namespace Employees_Application.Controllers
     public class UserController : Controller
     {
         private readonly IAuthService _authService;
-        public UserController(IAuthService authService)
+        private readonly IJwtService _jwtService;
+
+        public UserController(IAuthService authService, IJwtService jwtService)
         {
             _authService = authService;
+            _jwtService = jwtService;
         }
 
         [HttpPost("login")]
@@ -21,15 +23,27 @@ namespace Employees_Application.Controllers
         {
             try
             {
+                if (userDTO == null)
+                {
+                    return BadRequest();
+                }
                 var user = await _authService.AuthenticationAsync(userDTO);
-                return Ok(new {
-                    Message = "Login Success!"
-                 });
-
+                if (user == null)
+                {
+                    return NotFound("Not Found User");
+                }
+                user.Token = _jwtService.CreateJwt(user);
+                return Ok(new
+                {
+                    user.Token,
+                    Message = "Login Successes!",
+                    redirectUrl = "/Home",
+                });
             }
-            catch (Exception ex)
+            catch (ApplicationException ex)
             {
-                return BadRequest($"Error login user: {ex.Message}");
+                ModelState.AddModelError("error", ex.Message);
+                return BadRequest(ModelState);
             }
         }
 
@@ -38,16 +52,21 @@ namespace Employees_Application.Controllers
         {
             try
             {
+                if (userDTO == null)
+                {
+                    return BadRequest();
+                }
                 await _authService.RegisterAsync(userDTO);
                 return Ok(new
                 {
-                    Message = "User is registered"
+                    Message = "User Registered!"
                 });
 
             }
-            catch (Exception ex)
+            catch (ApplicationException ex)
             {
-                return BadRequest($"Error adding new user {ex.Message}");
+                ModelState.AddModelError("error", ex.Message);
+                return BadRequest(ModelState);
             }
         }
 

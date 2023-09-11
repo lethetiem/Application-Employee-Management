@@ -1,5 +1,6 @@
 using Employees_Application.Service.DTO;
 using Employees_Application.Service.Services.IService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Employees_Application.Controllers
@@ -14,6 +15,7 @@ namespace Employees_Application.Controllers
             _employeesService = employeeService;
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAllEmployees()
         {
@@ -21,6 +23,7 @@ namespace Employees_Application.Controllers
             return Ok(employees);
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> AddNewEmployee(EmployeeDTO employeeRequest)
         {
@@ -35,6 +38,7 @@ namespace Employees_Application.Controllers
             }
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEmployee(Guid id)
         {
@@ -49,22 +53,27 @@ namespace Employees_Application.Controllers
             }
         }
 
+        [Authorize]
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetEmployees(Guid id, [FromBody] EmployeeDTO employeeDTO){
+        public async Task<IActionResult> GetEmployees(Guid id, [FromBody] EmployeeDTO employeeDTO)
+        {
             if (id != employeeDTO.Id.Value)
             {
                 throw new ArgumentException("Employee ID is missing");
             }
 
-            try{
+            try
+            {
                 await _employeesService.GetEmployee(id);
                 return Ok();
-            }catch(Exception ex){
+            }
+            catch (Exception ex)
+            {
                 return BadRequest($"Error get id employee: {ex.Message}");
             }
         }
 
-
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateEmployee(Guid id, [FromBody] EmployeeDTO employeeDTO)
         {
